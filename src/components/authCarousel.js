@@ -5,7 +5,7 @@ class AuthCarousel extends Component{
     render() {
         return(
             <div>
-                <h2 className="carousel">CAROUSEEEEL</h2>
+                <h2 className="carousel">Карусель карусель</h2>
             </div>
         );
     }
