@@ -1,5 +1,10 @@
-.carousel{margin-right: 0
+@media (max-width: 700px) {
+    .carousel {
+        display: none;
+    }
 }
+
+.carousel{margin-right: 0}
 .slide{height: 390px}
 .caption_text{text-shadow:0 0 2px rgba(0,0,0,1)}
 .caption_text p{background-color: rgba(0,0,0,0.2); padding: 2px}

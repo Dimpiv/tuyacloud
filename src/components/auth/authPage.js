@@ -3,8 +3,6 @@ import "./authPage.css"
 import {Button} from "reactstrap"
 import AuthCarousel from "./carousel/authCarousel";
 
-
-
 class AuthPage extends Component{
     render() {
         return(
@@ -26,19 +24,18 @@ class AuthPage extends Component{
                             </div>
 
                             <div className="form-check">
-                                <label className="form-check-label">
-                                    <input type="checkbox" className="form-check-input"/>
-                                        <small>Запомнить</small>
-                                </label>
-                                <Button type="submit" className="btn btn-orange float-right">Вход</Button>
+                                {/*<label className="form-check-label">*/}
+                                {/*    <input type="checkbox" className="form-check-input"/>*/}
+                                {/*        <small>Запомнить</small>*/}
+                                {/*</label>*/}
+                                <Button type="submit" className="btn btn-orange">Вход</Button>
                             </div>
                         </form>
-
-                        <div className="copy-text"><div className="fa fa-coffee"/>&nbsp;
-                            <a href={"http://micrometrica.ru"}>
-                                micrometrica.ru
-                            </a>
-                        </div>
+                        {/*<div className="copy-text"><div className="fa fa-coffee"/>&nbsp;*/}
+                        {/*    <a href={"http://micrometrica.ru"}>*/}
+                        {/*        micrometrica.ru*/}
+                        {/*    </a>*/}
+                        {/*</div>*/}
                     </div>
                     <div className="col-md-8">
                         <AuthCarousel />

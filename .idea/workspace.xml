@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e6a32f2c-3986-4924-94e3-56ee58024be2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/authPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/authPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/authPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/authPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581749593171</updated>
       <workItem from="1581749594589" duration="8150000" />
-      <workItem from="1581764707805" duration="8531000" />
+      <workItem from="1581764707805" duration="10718000" />
     </task>
     <task id="LOCAL-00001" summary="AuthPage not Carousel">
       <created>1581755932232</created>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581774194530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавил фончиков">
+      <created>1581775348509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581775348509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,17 +120,18 @@
     <MESSAGE value="AuthPage not Carousel" />
     <MESSAGE value="Login inputs move up" />
     <MESSAGE value="Что-то похожее на слайдер..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Что-то похожее на слайдер..." />
+    <MESSAGE value="добавил фончиков" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил фончиков" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#ESLint" timestamp="1581750818692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#ESLint/0.0.1280.680@0.0.1280.680" timestamp="1581750818692" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1581774193450">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1581775347809">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581774193450" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581775347809" />
     <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1581765373800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
