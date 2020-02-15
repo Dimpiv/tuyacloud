@@ -1,6 +1,8 @@
 import React , {Component} from 'react';
 import "./authPage.css"
-import AuthCarousel from "./authCarousel";
+import {Button} from "reactstrap"
+import AuthCarousel from "./carousel/authCarousel";
+
 
 
 class AuthPage extends Component{
@@ -11,6 +13,7 @@ class AuthPage extends Component{
                 <div className="row">
                     <div className="col-md-4 login-sec">
                         <h2 className="text-center">TUYA CLOUD</h2>
+
                         <form className="login-form">
                             <div className="form-group">
                                 <label htmlFor="exampleInputEmail1" className="text-uppercase">Логин</label>
@@ -27,10 +30,10 @@ class AuthPage extends Component{
                                     <input type="checkbox" className="form-check-input"/>
                                         <small>Запомнить</small>
                                 </label>
-                                <button type="submit" className="btn btn-info float-right">Вход</button>
+                                <Button type="submit" className="btn btn-orange float-right">Вход</Button>
                             </div>
-
                         </form>
+
                         <div className="copy-text"><div className="fa fa-coffee"/>&nbsp;
                             <a href={"http://micrometrica.ru"}>
                                 micrometrica.ru
@@ -38,7 +41,7 @@ class AuthPage extends Component{
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <AuthCarousel/>
+                        <AuthCarousel />
                     </div>
                 </div>
             </div>

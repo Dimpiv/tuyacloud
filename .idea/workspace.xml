@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a32f2c-3986-4924-94e3-56ee58024be2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/slide_1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/authCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authCarousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/authPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/authPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/authCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/authPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/authPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/authPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/authPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +50,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\JavaScript\tuya\src\images" />
+      <recent name="C:\code\JavaScript\tuya\src\components\auth\carousel" />
+      <recent name="C:\code\JavaScript\tuya\src\components\auth" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -69,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581749593171</updated>
-      <workItem from="1581749594589" duration="6666000" />
+      <workItem from="1581749594589" duration="8150000" />
+      <workItem from="1581764707805" duration="7190000" />
     </task>
     <task id="LOCAL-00001" summary="AuthPage not Carousel">
       <created>1581755932232</created>
@@ -78,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581755932232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login inputs move up">
+      <created>1581756463260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581756463260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,32 +107,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AuthPage not Carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="AuthPage not Carousel" />
+    <MESSAGE value="Login inputs move up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login inputs move up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#ESLint" timestamp="1581750818692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#ESLint/0.0.1280.680@0.0.1280.680" timestamp="1581750818692" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1581755931392">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1581756462503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581755931392" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1581754297605">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581756462503" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1581765373800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581754297605" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1581754297605">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581765373800" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1581765373800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581754297605" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1581754297605">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581765373800" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1581765373800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581754297605" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1581754297605">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581765373800" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1581765373800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581754297605" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581765373800" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1581773299501">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1581773299501" />
   </component>
 </project>
