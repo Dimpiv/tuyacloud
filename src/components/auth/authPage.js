@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import "./authPage.css"
 import {Button} from "reactstrap"
 import AuthCarousel from "./carousel/authCarousel";
+import {Link} from "react-router-dom"
 
 class AuthPage extends Component{
     render() {
@@ -24,25 +25,17 @@ class AuthPage extends Component{
                             </div>
 
                             <div className="form-check">
-                                {/*<label className="form-check-label">*/}
-                                {/*    <input type="checkbox" className="form-check-input"/>*/}
-                                {/*        <small>Запомнить</small>*/}
-                                {/*</label>*/}
                                 <Button type="submit" className="btn btn-orange">Вход</Button>
                             </div>
                         </form>
-                        {/*<div className="copy-text"><div className="fa fa-coffee"/>&nbsp;*/}
-                        {/*    <a href={"http://micrometrica.ru"}>*/}
-                        {/*        micrometrica.ru*/}
-                        {/*    </a>*/}
-                        {/*</div>*/}
                     </div>
                     <div className="col-md-8">
                         <AuthCarousel />
                     </div>
                 </div>
             </div>
-        </div>
+                <Link to={"/dashboard"}>dasboard</Link>
+            </div>
         );
     }
 }
