@@ -4,7 +4,7 @@
     }
 }
 
-.carousel{margin-right: 0}
+.carousel{margin-right: 0; }
 .slide{}
-.caption_text{text-shadow:0 0 2px rgba(0,0,0,1)}
-.caption_text p{background-color: rgba(0,0,0,0.2); padding: 2px}
+.caption_text{text-shadow:0 0 2px rgba(0,0,0,1); font-family: 'Pattaya', sans-serif;}
+.caption_text p{background-color: rgba(0,0,0,0.2); padding: 2px; font-family: 'Rubik', sans-serif;}

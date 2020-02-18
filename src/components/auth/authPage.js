@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
-import "./authPage.css"
 import {Button} from "reactstrap"
+import "./authPage.css"
 import AuthCarousel from "./carousel/authCarousel";
 
 class AuthPage extends Component{
@@ -14,13 +14,13 @@ class AuthPage extends Component{
 
                         <form className="login-form">
                             <div className="form-group">
-                                <label htmlFor="exampleInputEmail1" className="text-uppercase">Логин</label>
-                                <input type="text" className="form-control" placeholder=""/>
+                                <label htmlFor="AuthInputEmail" className="text-uppercase">Логин</label>
+                                <input type="text" className="form-control" placeholder="Demo"/>
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="exampleInputPassword1" className="text-uppercase">Пароль</label>
-                                <input type="password" className="form-control" placeholder=""/>
+                                <label htmlFor="AuthInputPassword" className="text-uppercase">Пароль</label>
+                                <input type="password" className="form-control" placeholder="Demo"/>
                             </div>
 
                             <div className="form-check">
