@@ -2,13 +2,12 @@ import React , {Component} from 'react';
 import "./authPage.css"
 import {Button} from "reactstrap"
 import AuthCarousel from "./carousel/authCarousel";
-import {Link} from "react-router-dom"
 
 class AuthPage extends Component{
     render() {
         return(
             <div className="login-block">
-            <div className="container">
+            <div className="container auth-container">
                 <div className="row">
                     <div className="col-md-4 login-sec">
                         <h2 className="text-center">TUYA CLOUD</h2>
@@ -34,7 +33,6 @@ class AuthPage extends Component{
                     </div>
                 </div>
             </div>
-                <Link to={"/dashboard"}>dasboard</Link>
             </div>
         );
     }

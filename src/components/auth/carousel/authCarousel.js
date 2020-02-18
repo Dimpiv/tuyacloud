@@ -66,15 +66,6 @@ const AuthCarousel = (props) => {
 
     return (
         <div>
-            <style>
-                {
-                    `.custom-tag {
-                        max-width: 100%;
-                        height: 390px;
-                        background: white;
-                     }`
-                }
-            </style>
             <Carousel
                 activeIndex={activeIndex}
                 next={next}
