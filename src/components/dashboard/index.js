@@ -26,9 +26,10 @@ export default class DashboardPage extends Component {
 
     render() {
         return (
-            <div className="dashboard-main">
-                Dashboard!!!
-                {this.devices.map((item, i) => <DeviceBlock devices={item}/>)}
+            <div className="container main-dashboard">
+                <div className="row">
+                    {this.devices.map((item, i) => <DeviceBlock devices={item}/>)}
+                </div>
             </div>
         );
     }

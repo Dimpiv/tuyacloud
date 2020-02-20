@@ -7,7 +7,7 @@ export default class DeviceBlock extends Component {
 
     render() {
         return (
-            <div className="device-block">
+            <div className="col-sm device-block">
                 <img className="" src={lamp_png} alt=""/>
                 <h4>{this.device.name}</h4>
                 <p>{this.device.body}</p>
