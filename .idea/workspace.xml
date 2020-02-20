@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6a32f2c-3986-4924-94e3-56ee58024be2" name="Default Changelist" comment="">
+    <list default="true" id="e6a32f2c-3986-4924-94e3-56ee58024be2" name="Default Changelist" comment="Add Fonts">
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/deviceBlock/deviceBlock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/deviceBlock/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/authPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/authPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/carousel/authCarousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -58,6 +57,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="npm build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,6 +77,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.npm build" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="showServicesTree" value="false" />
@@ -85,7 +99,8 @@
       <workItem from="1581749594589" duration="8150000" />
       <workItem from="1581764707805" duration="11181000" />
       <workItem from="1581828279675" duration="3972000" />
-      <workItem from="1582018869406" duration="4338000" />
+      <workItem from="1582018869406" duration="8481000" />
+      <workItem from="1582202443555" duration="2028000" />
     </task>
     <task id="LOCAL-00001" summary="AuthPage not Carousel">
       <created>1581755932232</created>
@@ -129,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582021697337</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Fonts">
+      <created>1582023693263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582023693263</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,38 +164,43 @@
     <MESSAGE value="добавил фончиков" />
     <MESSAGE value="Add display macros" />
     <MESSAGE value="Почти все нормально" />
-    <option name="LAST_COMMIT_MESSAGE" value="Почти все нормально" />
+    <MESSAGE value="Add Fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Fonts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#ESLint" timestamp="1581750818692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#ESLint/0.0.1280.680@0.0.1280.680" timestamp="1581750818692" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1582021696159">
+    <state x="96" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582202605371">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1582202605371" />
+    <state x="-11" y="0" width="1250" height="720" key="CommitChangelistDialog2" timestamp="1582203482164">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581777580062" />
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1582021696159" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom" timestamp="1582023391800">
+    <state x="-11" y="0" width="1250" height="720" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1582203482164" />
+    <state width="1259" height="173" key="GridCell.Tab.0.bottom" timestamp="1582202606863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581854052337" />
-    <state width="1259" height="174" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1582023391800" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center" timestamp="1582023391800">
+    <state width="1259" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1582202606863" />
+    <state width="1259" height="173" key="GridCell.Tab.0.center" timestamp="1582202606863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581854052337" />
-    <state width="1259" height="174" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1582023391800" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left" timestamp="1582023391800">
+    <state width="1259" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1582202606863" />
+    <state width="1259" height="173" key="GridCell.Tab.0.left" timestamp="1582202606863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581854052337" />
-    <state width="1259" height="174" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1582023391800" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right" timestamp="1582023391800">
+    <state width="1259" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1582202606863" />
+    <state width="1259" height="173" key="GridCell.Tab.0.right" timestamp="1582202606863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581854052337" />
-    <state width="1259" height="174" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1582023391800" />
+    <state width="1259" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1582202606863" />
     <state x="0" y="0" width="609" height="720" key="find.popup" timestamp="1582023330532">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
